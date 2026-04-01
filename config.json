@@ -1,0 +1,38 @@
+{
+    "botones": {
+        "precios": "⛽ Ver precios ahora",
+        "repostaje": "📝 Anotar Repostaje",
+        "garaje": "🚘 Mi Garaje",
+        "estadisticas": "📈 Mis Estadísticas",
+        "excel": "📥 Exportar a Excel",
+        "ubicacion": "📍 Cambiar Ubicación",
+        "combustible": "🛢️ Tipo Combustible",
+        "hora": "⏰ Hora de Aviso",
+        "radio": "📏 Cambiar Radio",
+        "cantidad": "🔢 Cantidad Gasolineras",
+        "config": "⚙️ Mi Configuración",
+        "borrar": "🔄 Borrar mis datos",
+        "cancelar": "❌ Cancelar",
+        "guardar": "Si, guardar 💾",
+        "no_guardar": "No, gracias ❌",
+        "nuevo_vehiculo": "➕ Añadir Nuevo",
+        "ayuda": "ℹ️ Ayuda / Comandos",
+        "volver": "🔙 Volver al Menú"
+    },
+    "vehiculos": {
+        "coche": "🚗",
+        "moto": "🏍️",
+        "furgoneta": "🚐",
+        "todoterreno": "🚙",
+        "camion": "🚚",
+        "scooter": "🛵",
+        "tractor": "🚜"
+    },
+    "combustibles": {
+        "Gasolina 95": "Precio Gasolina 95 E5",
+        "Diésel": "Precio Gasoleo A",
+        "Gasolina 98": "Precio Gasolina 98 E5",
+        "GLP": "Precio Gases licuados del petróleo"
+    },
+    "debug": true
+}

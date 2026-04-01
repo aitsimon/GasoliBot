@@ -1,0 +1,5 @@
+.env
+basededatos.db
+medios/
+__pycache__/
+*.log
