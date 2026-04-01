@@ -54,4 +54,4 @@ El proyecto destaca por su enfoque estricto en la privacidad del usuario, emplea
 Este bot está diseñado asumiendo que el servidor puede ser comprometido. Los datos geográficos y personales son ilegibles sin la clave de entorno. Además, incluye un flujo de confirmación estricta para que los usuarios puedan aplicar el "Derecho al Olvido" (RGPD), eliminando todo su rastro de la base de datos de forma irreversible con un solo botón.
 
 ## 📄 Licencia
-Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+Este proyecto se distribuye bajo una Licencia de Uso Personal y No Comercial. Consulta el archivo `LICENSE` para más detalles.
