@@ -3,3 +3,4 @@ basededatos.db
 medios/
 __pycache__/
 *.log
+venv/

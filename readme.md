@@ -50,6 +50,17 @@ El proyecto destaca por su enfoque estricto en la privacidad del usuario, emplea
    ```
    *(Para entornos de producción, se recomienda gestionar el proceso con PM2 o Systemd).*
 
+## 🌐 Arquitectura de Despliegue (Real World Case)
+
+Este proyecto no es solo un script local; está desplegado y operando en un entorno de producción real con la siguiente infraestructura:
+
+* **Hosting:** VPS en **DigitalOcean** (Droplet) con Ubuntu Server.
+* **Gestión de Procesos:** Utiliza **PM2** para garantizar que el bot esté online 24/7, con reinicio automático en caso de fallos del sistema o del servidor.
+* **Seguridad de Red:** Protegido mediante un **Reverse Proxy con Nginx**, gestionando certificados **SSL (HTTPS)** para una comunicación segura con los servidores de Telegram.
+* **Webhooks:** A diferencia del método tradicional de *polling*, este bot utiliza *webhooks* para una respuesta instantánea y un consumo de CPU mínimo, optimizando los recursos del VPS.
+* **CI/CD Manual:** Flujo de trabajo basado en **Git** para actualizaciones rápidas desde el entorno de desarrollo al de producción.
+
+
 ## 🔐 Compromiso con la Privacidad (Privacy by Design)
 Este bot está diseñado asumiendo que el servidor puede ser comprometido. Los datos geográficos y personales son ilegibles sin la clave de entorno. Además, incluye un flujo de confirmación estricta para que los usuarios puedan aplicar el "Derecho al Olvido" (RGPD), eliminando todo su rastro de la base de datos de forma irreversible con un solo botón.
 
