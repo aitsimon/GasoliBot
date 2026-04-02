@@ -78,10 +78,10 @@ Este proyecto no es solo un script local; está desplegado y operando en un ento
 
 GasoliBot integra capas de seguridad nativas para garantizar que la información del usuario no sea vulnerable, incluso en entornos de producción:
 
-* [cite_start]**Cifrado de Datos Sensibles:** Las coordenadas geográficas (latitud/longitud) y los nombres de usuario se almacenan cifrados en la base de datos mediante criptografía simétrica (Fernet/AES-256). [cite: 1]
-* [cite_start]**Ilegibilidad de la Base de Datos:** En caso de acceso no autorizado al archivo SQLite, los datos personales resultan indescifrables sin la clave correspondiente cargada en memoria. [cite: 1]
-* [cite_start]**Derecho al Olvido (RGPD):** El sistema incluye una función de purga que permite al usuario eliminar de forma irreversible toda su información y registros de repostaje con un solo comando. [cite: 1]
-* [cite_start]**Gestión de Sesiones:** No se almacenan historiales de ubicación en texto plano; el bot solo procesa la posición actual para el cálculo de distancias y la descarta tras la respuesta o el cifrado. [cite: 1]
+* **Cifrado de Datos Sensibles:** Las coordenadas geográficas y los nombres de usuario se almacenan cifrados en la base de datos mediante criptografía simétrica (Fernet/AES-256).
+* **Ilegibilidad de la Base de Datos:** En caso de acceso no autorizado al servidor, los datos personales resultan indescifrables sin la clave correspondiente cargada en memoria.
+* **Derecho al Olvido (RGPD):** El sistema incluye una función de purga que permite al usuario eliminar de forma irreversible toda su información con un solo comando.
+* **Gestión de Sesiones:** No se almacenan historiales de ubicación en texto plano; el bot procesa la posición actual y la descarta tras el cálculo o su cifrado.
 
 ## 📄 Licencia
 Este proyecto se distribuye bajo una Licencia de Uso Personal y No Comercial. Consulta el archivo `LICENSE` para más detalles.
