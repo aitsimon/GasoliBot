@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <strong>🌐 Visita nuestra web oficial: <a href="https://gasolinabot.me">gasolinabot.me</a></strong><br>
+  <strong>🌐 Bot en funcionamiento: <a href="https://gasolinabot.me">gasolinabot.me</a></strong><br>
   <em>Ahorra tiempo, dinero y gestiona tu consumo desde una sola interfaz.</em>
 </p>
 
