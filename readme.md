@@ -37,7 +37,8 @@ El proyecto destaca por su enfoque estricto en la privacidad del usuario, emplea
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/TuUsuario/GasoliBot.git](https://github.com/TuUsuario/GasoliBot.git)
+   git clone [https://github.com/aitsimon/GasoliBot.git](https://github.com/T
+aitsimon/GasoliBot.git)
    cd GasoliBot
    ```
 
@@ -71,8 +72,6 @@ Este proyecto no es solo un script local; está desplegado y operando en un ento
 * **Gestión de Procesos:** Utiliza **PM2** para garantizar que el bot esté online 24/7, con reinicio automático en caso de fallos del sistema o del servidor.
 * **Seguridad de Red:** Protegido mediante un **Reverse Proxy con Nginx**, gestionando certificados **SSL (HTTPS)** para una comunicación segura con los servidores de Telegram.
 * **Webhooks:** A diferencia del método tradicional de *polling*, este bot utiliza *webhooks* para una respuesta instantánea y un consumo de CPU mínimo, optimizando los recursos del VPS.
-* **CI/CD Manual:** Flujo de trabajo basado en **Git** para actualizaciones rápidas desde el entorno de desarrollo al de producción.
-
 
 ## 🔐 Compromiso con la Privacidad (Privacy by Design)
 
