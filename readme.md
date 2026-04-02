@@ -1,5 +1,18 @@
 # ⛽ GasoliBot - Asistente Inteligente de Repostaje en Telegram
 
+<p align="center">
+  <a href="https://gasolinabot.me">
+    <img src="https://gasolinabot.me/logo.jpg" alt="GasoliBot Logo" width="200" style="border-radius: 50%;">
+  </a>
+</p>
+
+<p align="center">
+  <strong>🌐 Visita nuestra web oficial: <a href="https://gasolinabot.me">gasolinabot.me</a></strong><br>
+  <em>Ahorra tiempo, dinero y gestiona tu consumo desde una sola interfaz.</em>
+</p>
+
+---
+
 GasoliBot es un bot de Telegram avanzado escrito en Python diseñado para ayudar a los usuarios a encontrar las gasolineras más baratas de España en tiempo real, gestionar su garaje virtual y llevar un control exhaustivo de sus gastos de combustible.
 
 El proyecto destaca por su enfoque estricto en la privacidad del usuario, empleando encriptación de grado industrial para los datos sensibles, y por su alta optimización de recursos en el servidor mediante algoritmos de filtrado espacial (Bounding Box) y caché en memoria RAM.
