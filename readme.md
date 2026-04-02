@@ -75,7 +75,13 @@ Este proyecto no es solo un script local; está desplegado y operando en un ento
 
 
 ## 🔐 Compromiso con la Privacidad (Privacy by Design)
-Este bot está diseñado asumiendo que el servidor puede ser comprometido. Los datos geográficos y personales son ilegibles sin la clave de entorno. Además, incluye un flujo de confirmación estricta para que los usuarios puedan aplicar el "Derecho al Olvido" (RGPD), eliminando todo su rastro de la base de datos de forma irreversible con un solo botón.
+
+GasoliBot integra capas de seguridad nativas para garantizar que la información del usuario no sea vulnerable, incluso en entornos de producción:
+
+* [cite_start]**Cifrado de Datos Sensibles:** Las coordenadas geográficas (latitud/longitud) y los nombres de usuario se almacenan cifrados en la base de datos mediante criptografía simétrica (Fernet/AES-256). [cite: 1]
+* [cite_start]**Ilegibilidad de la Base de Datos:** En caso de acceso no autorizado al archivo SQLite, los datos personales resultan indescifrables sin la clave correspondiente cargada en memoria. [cite: 1]
+* [cite_start]**Derecho al Olvido (RGPD):** El sistema incluye una función de purga que permite al usuario eliminar de forma irreversible toda su información y registros de repostaje con un solo comando. [cite: 1]
+* [cite_start]**Gestión de Sesiones:** No se almacenan historiales de ubicación en texto plano; el bot solo procesa la posición actual para el cálculo de distancias y la descarta tras la respuesta o el cifrado. [cite: 1]
 
 ## 📄 Licencia
 Este proyecto se distribuye bajo una Licencia de Uso Personal y No Comercial. Consulta el archivo `LICENSE` para más detalles.
